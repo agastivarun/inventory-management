@@ -788,7 +788,7 @@ export default {
 
 .transactions-table th {
   text-align: left;
-  padding: 0.625rem 0.75rem;
+  padding: 0.75rem 1rem;
   font-weight: 600;
   color: #475569;
   font-size: 0.75rem;
@@ -802,7 +802,7 @@ export default {
 }
 
 .transactions-table td {
-  padding: 0.75rem 0.75rem;
+  padding: 0.75rem 1rem;
   border-bottom: 1px solid #f1f5f9;
   font-size: 0.875rem;
 }

@@ -755,14 +755,15 @@ export default {
 .kpi-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .kpi-card {
   background: white;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  padding: 1rem;
+  border: 1px solid rgba(226, 232, 240, 0.6);
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+  padding: 1.25rem;
 }
 
 .kpi-header {
@@ -813,8 +814,8 @@ export default {
 .charts-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
-  margin-bottom: 1.5rem;
+  gap: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 .chart-card.full-width {
