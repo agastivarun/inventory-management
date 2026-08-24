@@ -323,10 +323,11 @@ export default {
 
 .card {
   background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  padding: 1.75rem;
+  margin-bottom: 1.75rem;
+  border: 1px solid rgba(226, 232, 240, 0.6);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
 }
 
 .card-header {
@@ -347,7 +348,7 @@ export default {
 
 .reports-table th {
   background: #f8fafc;
-  padding: 0.75rem;
+  padding: 0.75rem 1rem;
   text-align: left;
   font-weight: 600;
   color: #64748b;
@@ -355,7 +356,7 @@ export default {
 }
 
 .reports-table td {
-  padding: 0.75rem;
+  padding: 0.75rem 1rem;
   border-bottom: 1px solid #e2e8f0;
 }
 
@@ -416,15 +417,16 @@ export default {
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin-top: 1.5rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .stat-card {
   background: white;
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(226, 232, 240, 0.6);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
   border-left: 4px solid #3b82f6;
 }
 
